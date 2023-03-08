@@ -1,3 +1,19 @@
+A word from the English dictionary is taken and arranged as a matrix. e.g. "MATHEMATICS"
+MATHE  
+ATHEM  
+THEMA  
+HEMAT  
+EMATI  
+MATIC  
+ATICS  
+There are many ways to trace this matrix in a way that helps you construct this word. 
+You start tracing the matrix from the top-left position and at each iteration, you either move RIGHT or DOWN, 
+and ultimately reach the bottom-right of the matrix. It is assured that any such tracing generates the same word. 
+How many such tracings can be possible for a given word of length m+n-1 written as a matrix of size m * n?
+
+
+
+
 #include <bits/stdc++.h>
 #define MOD 1000000007
 using namespace std;
